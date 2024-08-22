@@ -34,9 +34,10 @@
             width: 500px; 
             height: 600px;
         }
-        #foto1{
-            width: 200px; 
-            height: 200px
+        .card-img-top {
+            object-fit: cover; /* Garante que a imagem preencha o container */
+            width: 100%; /* Certifica-se de que a imagem usa toda a largura disponível */
+            height: 200px; /* Ajuste a altura conforme necessário */
         }
     </style>
 </head>
@@ -99,7 +100,7 @@
             <div class="row mt-4">
                 <div class="col-md-4">
                     <div class="card h-100">
-                        <img src="tourserra.jpeg" class="card-img-top" alt="Tour Personalizado">
+                        <img src="tourserra.jpeg" class="card-img-top img-fluid" alt="Tour Personalizado">
                         <div class="card-body">
                             <h5 class="card-title">Tours Personalizados</h5>
                             <p class="card-text">Explorações sob medida para atender às suas necessidades e interesses específicos.</p>
@@ -108,7 +109,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card h-100">
-                        <img src="trilhas.jpg" class="card-img-top" alt="Caminhadas">
+                        <img src="trilhas.jpg" class="card-img-top img-fluid" alt="Caminhadas">
                         <div class="card-body">
                             <h5 class="card-title">Caminhadas Guiadas</h5>
                             <p class="card-text">Caminhadas por trilhas que levam aos principais sítios arqueológicos e pontos de interesse.</p>
@@ -117,7 +118,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card h-100">
-                       <img id="Foto1" src="Foto1.jpeg" class="card-img-top" alt="Visitas Arqueológicas" style="width: 414.4px; height: 204.817px;">
+                       <img id="Foto1" src="Foto1.jpeg"class="card-img-top img-fluid" alt="Visitas Arqueológicas" style="width: 414.4px; height: 204.817px;">
 
                         <div class="card-body">
                             <h5 class="card-title">Visitas Arqueológicas</h5>
